@@ -1,0 +1,24 @@
+{
+  "name": "architect-request",
+  "description": "Request plugin for Architect",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "Nujii Labs",
+    "email": "developer@nujii.com"
+  },
+  "contributors": [ 
+    { "name": "Cameron Bytheway", "email": "cameron@nujii.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nujii/architect-request.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.10.0"
+  },
+  "plugin": {
+    "provides": ["request"]
+  }
+}
