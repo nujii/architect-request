@@ -35,7 +35,7 @@ We would be able to define routes similar to express:
 ```js
 var requestSpoof = new request.fixture();
 requestSpoof.get('http://api.example.com', req, res) {
-  res.send(JSON.encode({hello: "world"}));
+  res.send(JSON.stringify({hello: "world"}));
 };
 ```
 
