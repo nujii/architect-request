@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/nujii/architect-request.png)](http://travis-ci.org/nujii/architect-request)
 # architect-request
 
 [request](https://github.com/mikeal/request) plugin for 
